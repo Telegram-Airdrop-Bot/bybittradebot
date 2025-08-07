@@ -1,0 +1,163 @@
+account:
+  api_key_name: ''
+api:
+  api_key: ITuu3WVvaO5US5Ny4u
+  api_secret: PFFwef5islyLAKET4DYbGjEhGToXCSH0TNJj
+  testnet: false
+dashboard:
+  auto_refresh: 30
+  enabled: true
+  features:
+    order_book: true
+    performance_metrics: true
+    position_monitoring: true
+    real_time_charts: true
+    risk_management: true
+  host: localhost
+  port: 8081
+database:
+  connection_string: trading_bot.db
+  enabled: true
+  performance_history_days: 365
+  trade_history_days: 90
+  type: sqlite
+futures:
+  auto_leverage: true
+  base_order_size: 50
+  enabled: true
+  funding_rate_threshold: 0.01
+  grid_levels: 15
+  grid_spacing: 1.5
+  hedging:
+    enabled: true
+    hedge_ratio: 0.5
+    hedge_symbols:
+    - BTCUSDT
+  leverage: 5
+  margin_mode: ISOLATED
+  max_leverage: 10
+  symbols:
+  - BTCUSDT
+  - ETHUSDT
+  - SOLUSDT
+grid_strategy:
+  cover_loss:
+    enabled: true
+    max_multiplier: 5.0
+    multiplier: 1.5
+    reset_threshold: 3
+  dynamic_grid: true
+  grid_calculation:
+    base_spacing: 2.0
+    method: percentage
+    volatility_multiplier: 1.5
+  position_management:
+    max_positions_per_symbol: 3
+    position_size_percentage: 10.0
+    position_sizing: fixed
+  volatility_threshold: 5.0
+logging:
+  backup_count: 5
+  file_logging: true
+  level: INFO
+  log_file: trading_bot.log
+  max_file_size: 10
+  performance_logging: true
+  position_logging: true
+  trade_logging: true
+market_analysis:
+  indicators:
+    bollinger_bands:
+      enabled: true
+      period: 20
+      std_dev: 2
+    moving_average:
+      enabled: true
+      long_period: 20
+      short_period: 10
+      type: SMA
+    rsi:
+      enabled: true
+      overbought: 70
+      oversold: 30
+      period: 14
+    volume_profile:
+      enabled: true
+      period: 24
+  market_conditions:
+    trend_strength_threshold: 0.7
+    volatility_threshold: 5.0
+    volume_threshold: 1000000
+  signals:
+    ma_weight: 0.3
+    min_signal_strength: 0.6
+    price_weight: 0.2
+    rsi_weight: 0.3
+    volume_weight: 0.2
+notifications:
+  alerts:
+    daily_summary: true
+    error_notifications: true
+    position_closed: true
+    stop_loss_triggered: true
+    take_profit_triggered: true
+    trade_executed: true
+  email:
+    email: ''
+    enabled: false
+    password: ''
+    smtp_port: 587
+    smtp_server: ''
+  enabled: true
+  telegram:
+    bot_token: ''
+    chat_id: ''
+    enabled: false
+orders:
+  default_order_type: LIMIT
+  market_orders: false
+  max_slippage: 0.5
+  order_timeout: 30
+  post_only: true
+  price_deviation: 1.0
+  time_in_force: GTC
+spot:
+  auto_rebalance: true
+  base_order_size: 100
+  enabled: true
+  grid_levels: 10
+  grid_spacing: 2.0
+  margin_symbols:
+  - BTCUSDT
+  - ETHUSDT
+  max_margin_ratio: 0.8
+  rebalance_threshold: 5.0
+  symbols:
+  - BTCUSDT
+  - ETHUSDT
+  - SOLUSDT
+  use_margin: false
+system:
+  burst_limit: 20
+  connection_timeout: 30
+  max_cpu_usage: 80
+  max_memory_usage: 80
+  max_retries: 3
+  requests_per_second: 10
+  retry_delay: 5
+testnet: false
+trading:
+  auto_trade:
+    enabled: true
+    max_daily_loss: '1000'
+    max_daily_trades: 50
+    max_positions: '5'
+  mode: both
+  risk_level: moderate
+  risk_management:
+    max_leverage: 10
+    max_position_size: 0.1
+    stop_loss_percentage: 5.0
+    take_profit_percentage: 10.0
+    trailing_stop: true
+    trailing_stop_distance: 2.0

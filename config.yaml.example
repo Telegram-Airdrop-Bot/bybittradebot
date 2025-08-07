@@ -1,0 +1,74 @@
+# ByBit Grid Trading Bot - Example Configuration
+# Copy this file to config.yaml and modify with your settings
+
+# API Configuration
+api:
+  testnet: true  # Set to false for live trading
+  api_key: "your_bybit_api_key_here"
+  api_secret: "your_bybit_api_secret_here"
+
+# Trading Configuration
+trading:
+  symbol: "BTCUSDT"  # Trading pair
+  leverage: 10       # Leverage for futures trading
+  position_size: 0.01  # Base position size in BTC
+  max_positions: 5   # Maximum number of concurrent positions
+
+# Grid Configuration
+grid:
+  upper_price: 50000  # Upper grid boundary
+  lower_price: 40000  # Lower grid boundary
+  grid_levels: 20     # Number of grid levels (if auto_grid is true)
+  auto_grid: true     # Auto-calculate grid levels
+  custom_levels: []   # Custom grid levels (if auto_grid is false)
+  # Example custom levels: [45000, 46000, 47000, 48000, 49000]
+
+# Take Profit Configuration
+take_profit:
+  percentage: 0.95  # 95% of grid level difference
+  auto_adjust: true # Auto-adjust based on market volatility
+
+# Stop Loss Configuration
+stop_loss:
+  percentage: 0.05  # 5% stop loss
+  trailing: true    # Enable trailing stop loss
+
+# Cover Loss Configuration
+cover_loss:
+  enabled: true
+  multiplier: 1.5   # Increase position size by 1.5x after loss
+  max_multiplier: 3.0  # Maximum multiplier
+
+# Risk Management
+risk:
+  max_daily_loss: 100  # Maximum daily loss in USDT
+  max_position_loss: 50  # Maximum loss per position in USDT
+  emergency_stop: true   # Emergency stop on excessive losses
+
+# Performance Settings
+performance:
+  websocket_reconnect_delay: 5  # Seconds to wait before reconnecting
+  max_retries: 3               # Maximum API retry attempts
+  order_timeout: 10            # Order timeout in seconds
+  price_update_interval: 0.1   # Price update interval in seconds
+
+# Logging Configuration
+logging:
+  level: "INFO"
+  file: "bot.log"
+  max_size: "10MB"
+  rotation: "1 day"
+  retention: "7 days"
+
+# Database Configuration (for state persistence)
+database:
+  redis_host: "localhost"
+  redis_port: 6379
+  redis_db: 0
+  redis_password: ""
+
+# Monitoring
+monitoring:
+  health_check_interval: 30  # Health check interval in seconds
+  performance_metrics: true   # Enable performance metrics
+  alert_on_errors: true      # Send alerts on errors 

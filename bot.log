@@ -1,0 +1,139 @@
+2025-08-07 02:37:51 | INFO     | src.config:_load_config:20 - Configuration loaded from config.yaml
+2025-08-07 02:37:51 | INFO     | src.config:_validate_config:49 - Configuration validation completed
+2025-08-07 02:37:51 | INFO     | src.main:__init__:44 - Trading bot initialized
+2025-08-07 02:37:51 | INFO     | src.bybit_client:__init__:40 - ByBit client initialized (testnet: False)
+2025-08-07 02:37:51 | INFO     | src.grid_strategy:__init__:92 - Grid strategy initialized with 20 levels
+2025-08-07 02:37:55 | WARNING  | src.monitor:_init_redis:58 - Redis connection failed: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-08-07 02:37:55 | INFO     | src.monitor:__init__:37 - System monitor initialized
+2025-08-07 02:37:55 | INFO     | src.monitor:__init__:208 - Alert manager initialized
+2025-08-07 02:37:57 | INFO     | src.grid_strategy:initialize:106 - Grid strategy initialized successfully
+2025-08-07 02:37:58 | INFO     | src.bybit_client:connect_websocket:58 - WebSocket connected successfully
+2025-08-07 02:37:58 | INFO     | src.main:initialize:76 - All components initialized successfully
+2025-08-07 02:37:58 | INFO     | src.main:run:90 - Starting trading bot...
+2025-08-07 02:38:00 | INFO     | src.monitor:health_check:132 - Health check passed
+2025-08-07 02:38:00 | INFO     | src.monitor:log_performance:183 - Performance: CPU=3.5%, Memory=87.8%, PnL=0.00, Trades=0
+2025-08-07 02:38:02 | INFO     | src.monitor:log_performance:183 - Performance: CPU=0.0%, Memory=87.7%, PnL=0.00, Trades=0
+2025-08-07 02:38:03 | INFO     | src.monitor:log_performance:183 - Performance: CPU=1.2%, Memory=87.4%, PnL=0.00, Trades=0
+2025-08-07 02:38:05 | INFO     | src.monitor:log_performance:183 - Performance: CPU=2.7%, Memory=86.8%, PnL=0.00, Trades=0
+2025-08-07 02:38:07 | INFO     | src.monitor:log_performance:183 - Performance: CPU=2.3%, Memory=86.8%, PnL=0.00, Trades=0
+2025-08-07 02:38:08 | INFO     | src.monitor:log_performance:183 - Performance: CPU=2.7%, Memory=86.9%, PnL=0.00, Trades=0
+2025-08-07 02:38:10 | INFO     | src.monitor:log_performance:183 - Performance: CPU=2.3%, Memory=86.9%, PnL=0.00, Trades=0
+2025-08-07 02:38:12 | INFO     | src.monitor:log_performance:183 - Performance: CPU=0.8%, Memory=87.0%, PnL=0.00, Trades=0
+2025-08-07 02:38:14 | INFO     | src.monitor:log_performance:183 - Performance: CPU=1.9%, Memory=87.0%, PnL=0.00, Trades=0
+2025-08-07 02:38:15 | INFO     | src.monitor:log_performance:183 - Performance: CPU=0.0%, Memory=87.0%, PnL=0.00, Trades=0
+2025-08-07 02:38:17 | INFO     | src.monitor:log_performance:183 - Performance: CPU=2.8%, Memory=86.9%, PnL=0.00, Trades=0
+2025-08-07 02:38:19 | INFO     | src.monitor:log_performance:183 - Performance: CPU=1.6%, Memory=86.9%, PnL=0.00, Trades=0
+2025-08-07 02:38:21 | INFO     | src.monitor:log_performance:183 - Performance: CPU=1.6%, Memory=86.9%, PnL=0.00, Trades=0
+2025-08-07 02:38:22 | INFO     | src.monitor:log_performance:183 - Performance: CPU=0.0%, Memory=86.9%, PnL=0.00, Trades=0
+2025-08-07 02:38:24 | INFO     | src.monitor:log_performance:183 - Performance: CPU=3.1%, Memory=87.0%, PnL=0.00, Trades=0
+2025-08-07 02:38:26 | INFO     | src.monitor:log_performance:183 - Performance: CPU=5.1%, Memory=86.8%, PnL=0.00, Trades=0
+2025-08-07 02:38:27 | INFO     | src.monitor:log_performance:183 - Performance: CPU=3.9%, Memory=87.0%, PnL=0.00, Trades=0
+2025-08-07 02:38:29 | INFO     | src.monitor:log_performance:183 - Performance: CPU=34.8%, Memory=87.2%, PnL=0.00, Trades=0
+2025-08-07 02:38:31 | INFO     | src.monitor:health_check:132 - Health check passed
+2025-08-07 02:38:31 | INFO     | src.monitor:log_performance:183 - Performance: CPU=11.7%, Memory=87.3%, PnL=0.00, Trades=0
+2025-08-07 02:38:33 | INFO     | src.monitor:log_performance:183 - Performance: CPU=1.6%, Memory=87.3%, PnL=0.00, Trades=0
+2025-08-07 02:38:35 | INFO     | src.monitor:log_performance:183 - Performance: CPU=4.7%, Memory=87.3%, PnL=0.00, Trades=0
+2025-08-07 02:38:37 | INFO     | src.monitor:log_performance:183 - Performance: CPU=4.3%, Memory=87.4%, PnL=0.00, Trades=0
+2025-08-07 02:38:38 | INFO     | src.monitor:log_performance:183 - Performance: CPU=9.3%, Memory=86.6%, PnL=0.00, Trades=0
+2025-08-07 02:38:40 | INFO     | src.monitor:log_performance:183 - Performance: CPU=2.7%, Memory=86.7%, PnL=0.00, Trades=0
+2025-08-07 02:38:42 | INFO     | src.monitor:log_performance:183 - Performance: CPU=1.6%, Memory=86.5%, PnL=0.00, Trades=0
+2025-08-07 02:38:43 | INFO     | src.monitor:log_performance:183 - Performance: CPU=3.9%, Memory=86.5%, PnL=0.00, Trades=0
+2025-08-07 02:38:45 | INFO     | src.monitor:log_performance:183 - Performance: CPU=38.2%, Memory=87.0%, PnL=0.00, Trades=0
+2025-08-07 02:38:47 | INFO     | src.monitor:log_performance:183 - Performance: CPU=10.9%, Memory=86.9%, PnL=0.00, Trades=0
+2025-08-07 02:38:48 | INFO     | src.monitor:log_performance:183 - Performance: CPU=22.7%, Memory=87.1%, PnL=0.00, Trades=0
+2025-08-07 02:38:50 | INFO     | src.monitor:log_performance:183 - Performance: CPU=30.9%, Memory=87.0%, PnL=0.00, Trades=0
+2025-08-07 02:38:52 | INFO     | src.monitor:log_performance:183 - Performance: CPU=23.3%, Memory=86.8%, PnL=0.00, Trades=0
+2025-08-07 02:38:54 | INFO     | src.monitor:log_performance:183 - Performance: CPU=21.4%, Memory=86.8%, PnL=0.00, Trades=0
+2025-08-07 02:38:56 | INFO     | src.monitor:log_performance:183 - Performance: CPU=32.8%, Memory=87.3%, PnL=0.00, Trades=0
+2025-08-07 02:38:58 | INFO     | src.monitor:log_performance:183 - Performance: CPU=39.3%, Memory=87.3%, PnL=0.00, Trades=0
+2025-08-07 02:38:59 | INFO     | src.monitor:log_performance:183 - Performance: CPU=15.6%, Memory=87.1%, PnL=0.00, Trades=0
+2025-08-07 02:39:02 | INFO     | src.monitor:health_check:132 - Health check passed
+2025-08-07 02:39:02 | INFO     | src.monitor:log_performance:183 - Performance: CPU=21.2%, Memory=87.1%, PnL=0.00, Trades=0
+2025-08-07 02:39:04 | INFO     | src.monitor:log_performance:183 - Performance: CPU=33.1%, Memory=87.0%, PnL=0.00, Trades=0
+2025-08-07 02:39:05 | INFO     | src.monitor:log_performance:183 - Performance: CPU=25.2%, Memory=87.2%, PnL=0.00, Trades=0
+2025-08-07 02:39:07 | INFO     | src.monitor:log_performance:183 - Performance: CPU=16.7%, Memory=87.7%, PnL=0.00, Trades=0
+2025-08-07 02:39:09 | INFO     | src.monitor:log_performance:183 - Performance: CPU=37.1%, Memory=87.6%, PnL=0.00, Trades=0
+2025-08-07 02:39:10 | INFO     | src.monitor:log_performance:183 - Performance: CPU=15.1%, Memory=87.6%, PnL=0.00, Trades=0
+2025-08-07 02:39:12 | INFO     | src.monitor:log_performance:183 - Performance: CPU=17.7%, Memory=87.6%, PnL=0.00, Trades=0
+2025-08-07 02:39:14 | INFO     | src.monitor:log_performance:183 - Performance: CPU=21.5%, Memory=87.5%, PnL=0.00, Trades=0
+2025-08-07 02:39:16 | INFO     | src.monitor:log_performance:183 - Performance: CPU=17.2%, Memory=87.5%, PnL=0.00, Trades=0
+2025-08-07 02:39:18 | INFO     | src.monitor:log_performance:183 - Performance: CPU=16.3%, Memory=87.6%, PnL=0.00, Trades=0
+2025-08-07 02:39:20 | INFO     | src.monitor:log_performance:183 - Performance: CPU=72.4%, Memory=88.8%, PnL=0.00, Trades=0
+2025-08-07 02:39:21 | INFO     | src.monitor:log_performance:183 - Performance: CPU=15.6%, Memory=88.7%, PnL=0.00, Trades=0
+2025-08-07 02:39:23 | INFO     | src.monitor:log_performance:183 - Performance: CPU=30.2%, Memory=88.7%, PnL=0.00, Trades=0
+2025-08-07 02:39:25 | INFO     | src.monitor:log_performance:183 - Performance: CPU=15.2%, Memory=88.7%, PnL=0.00, Trades=0
+2025-08-07 02:39:27 | INFO     | src.monitor:log_performance:183 - Performance: CPU=5.5%, Memory=88.6%, PnL=0.00, Trades=0
+2025-08-07 02:39:28 | INFO     | src.monitor:log_performance:183 - Performance: CPU=36.8%, Memory=88.0%, PnL=0.00, Trades=0
+2025-08-07 02:39:30 | INFO     | src.monitor:log_performance:183 - Performance: CPU=21.5%, Memory=88.0%, PnL=0.00, Trades=0
+2025-08-07 02:39:32 | INFO     | src.monitor:health_check:132 - Health check passed
+2025-08-07 02:39:32 | INFO     | src.monitor:log_performance:183 - Performance: CPU=25.0%, Memory=88.0%, PnL=0.00, Trades=0
+2025-08-07 02:39:34 | INFO     | src.monitor:log_performance:183 - Performance: CPU=29.6%, Memory=88.1%, PnL=0.00, Trades=0
+2025-08-07 02:39:36 | INFO     | src.monitor:log_performance:183 - Performance: CPU=35.2%, Memory=87.5%, PnL=0.00, Trades=0
+2025-08-07 02:39:38 | INFO     | src.monitor:log_performance:183 - Performance: CPU=20.6%, Memory=87.4%, PnL=0.00, Trades=0
+2025-08-07 02:39:39 | INFO     | src.monitor:log_performance:183 - Performance: CPU=21.1%, Memory=87.6%, PnL=0.00, Trades=0
+2025-08-07 02:39:41 | INFO     | src.monitor:log_performance:183 - Performance: CPU=16.3%, Memory=87.6%, PnL=0.00, Trades=0
+2025-08-07 02:39:43 | INFO     | src.monitor:log_performance:183 - Performance: CPU=32.7%, Memory=87.6%, PnL=0.00, Trades=0
+2025-08-07 02:39:45 | INFO     | src.monitor:log_performance:183 - Performance: CPU=17.3%, Memory=87.6%, PnL=0.00, Trades=0
+2025-08-07 02:39:47 | INFO     | src.monitor:log_performance:183 - Performance: CPU=20.7%, Memory=87.7%, PnL=0.00, Trades=0
+2025-08-07 02:39:48 | INFO     | src.monitor:log_performance:183 - Performance: CPU=49.2%, Memory=87.7%, PnL=0.00, Trades=0
+2025-08-07 02:39:50 | INFO     | src.monitor:log_performance:183 - Performance: CPU=16.7%, Memory=87.9%, PnL=0.00, Trades=0
+2025-08-07 02:39:52 | INFO     | src.monitor:log_performance:183 - Performance: CPU=13.7%, Memory=88.0%, PnL=0.00, Trades=0
+2025-08-07 02:39:54 | INFO     | src.monitor:log_performance:183 - Performance: CPU=22.7%, Memory=88.0%, PnL=0.00, Trades=0
+2025-08-07 02:39:55 | INFO     | src.monitor:log_performance:183 - Performance: CPU=12.9%, Memory=88.0%, PnL=0.00, Trades=0
+2025-08-07 02:39:57 | INFO     | src.monitor:log_performance:183 - Performance: CPU=22.6%, Memory=88.0%, PnL=0.00, Trades=0
+2025-08-07 02:39:59 | INFO     | src.monitor:log_performance:183 - Performance: CPU=14.0%, Memory=87.6%, PnL=0.00, Trades=0
+2025-08-07 02:40:01 | INFO     | src.monitor:log_performance:183 - Performance: CPU=17.6%, Memory=87.6%, PnL=0.00, Trades=0
+2025-08-07 02:40:03 | INFO     | src.monitor:health_check:132 - Health check passed
+2025-08-07 02:40:03 | INFO     | src.monitor:log_performance:183 - Performance: CPU=28.9%, Memory=87.7%, PnL=0.00, Trades=0
+2025-08-07 02:40:05 | INFO     | src.monitor:log_performance:183 - Performance: CPU=18.4%, Memory=87.7%, PnL=0.00, Trades=0
+2025-08-07 02:40:07 | INFO     | src.monitor:log_performance:183 - Performance: CPU=31.5%, Memory=87.8%, PnL=0.00, Trades=0
+2025-08-07 02:40:08 | INFO     | src.monitor:log_performance:183 - Performance: CPU=25.7%, Memory=87.7%, PnL=0.00, Trades=0
+2025-08-07 02:40:10 | INFO     | src.monitor:log_performance:183 - Performance: CPU=20.2%, Memory=87.6%, PnL=0.00, Trades=0
+2025-08-07 02:40:12 | INFO     | src.monitor:log_performance:183 - Performance: CPU=12.2%, Memory=87.6%, PnL=0.00, Trades=0
+2025-08-07 02:40:14 | INFO     | src.monitor:log_performance:183 - Performance: CPU=17.6%, Memory=87.6%, PnL=0.00, Trades=0
+2025-08-07 02:40:15 | INFO     | src.monitor:log_performance:183 - Performance: CPU=37.7%, Memory=87.6%, PnL=0.00, Trades=0
+2025-08-07 02:40:17 | INFO     | src.monitor:log_performance:183 - Performance: CPU=12.9%, Memory=87.6%, PnL=0.00, Trades=0
+2025-08-07 02:40:19 | INFO     | src.monitor:log_performance:183 - Performance: CPU=20.5%, Memory=87.7%, PnL=0.00, Trades=0
+2025-08-07 02:40:21 | INFO     | src.monitor:log_performance:183 - Performance: CPU=11.7%, Memory=87.6%, PnL=0.00, Trades=0
+2025-08-07 02:40:23 | INFO     | src.monitor:log_performance:183 - Performance: CPU=23.1%, Memory=87.6%, PnL=0.00, Trades=0
+2025-08-07 02:40:24 | INFO     | src.monitor:log_performance:183 - Performance: CPU=8.2%, Memory=87.5%, PnL=0.00, Trades=0
+2025-08-07 02:40:26 | INFO     | src.monitor:log_performance:183 - Performance: CPU=13.2%, Memory=87.7%, PnL=0.00, Trades=0
+2025-08-07 02:40:28 | INFO     | src.monitor:log_performance:183 - Performance: CPU=41.2%, Memory=87.8%, PnL=0.00, Trades=0
+2025-08-07 02:40:30 | INFO     | src.monitor:log_performance:183 - Performance: CPU=14.9%, Memory=87.8%, PnL=0.00, Trades=0
+2025-08-07 02:40:32 | INFO     | src.monitor:log_performance:183 - Performance: CPU=25.7%, Memory=87.8%, PnL=0.00, Trades=0
+2025-08-07 02:40:34 | INFO     | src.monitor:health_check:132 - Health check passed
+2025-08-07 02:40:34 | INFO     | src.monitor:log_performance:183 - Performance: CPU=14.0%, Memory=88.0%, PnL=0.00, Trades=0
+2025-08-07 02:40:36 | INFO     | src.monitor:log_performance:183 - Performance: CPU=32.0%, Memory=89.0%, PnL=0.00, Trades=0
+2025-08-07 02:40:38 | INFO     | src.monitor:log_performance:183 - Performance: CPU=14.5%, Memory=88.8%, PnL=0.00, Trades=0
+2025-08-07 02:40:40 | INFO     | src.monitor:log_performance:183 - Performance: CPU=23.3%, Memory=89.0%, PnL=0.00, Trades=0
+2025-08-07 02:40:41 | INFO     | src.monitor:log_performance:183 - Performance: CPU=19.4%, Memory=88.9%, PnL=0.00, Trades=0
+2025-08-07 02:40:43 | INFO     | src.monitor:log_performance:183 - Performance: CPU=13.6%, Memory=88.9%, PnL=0.00, Trades=0
+2025-08-07 02:40:45 | INFO     | src.monitor:log_performance:183 - Performance: CPU=18.8%, Memory=88.9%, PnL=0.00, Trades=0
+2025-08-07 02:40:47 | INFO     | src.monitor:log_performance:183 - Performance: CPU=44.4%, Memory=89.1%, PnL=0.00, Trades=0
+2025-08-07 02:40:49 | INFO     | src.monitor:log_performance:183 - Performance: CPU=15.1%, Memory=89.1%, PnL=0.00, Trades=0
+2025-08-07 02:40:50 | INFO     | src.monitor:log_performance:183 - Performance: CPU=65.4%, Memory=89.4%, PnL=0.00, Trades=0
+2025-08-07 02:40:52 | INFO     | src.monitor:log_performance:183 - Performance: CPU=79.2%, Memory=90.4%, PnL=0.00, Trades=0
+2025-08-07 02:41:08 | INFO     | src.config:_load_config:20 - Configuration loaded from config.yaml
+2025-08-07 02:41:08 | INFO     | src.config:_validate_config:49 - Configuration validation completed
+2025-08-07 02:41:08 | INFO     | src.main:__init__:44 - Trading bot initialized
+2025-08-07 02:41:08 | INFO     | src.bybit_client:__init__:40 - ByBit client initialized (testnet: False)
+2025-08-07 02:41:08 | INFO     | src.grid_strategy:__init__:92 - Grid strategy initialized with 20 levels
+2025-08-07 02:41:12 | WARNING  | src.monitor:_init_redis:58 - Redis connection failed: Error 10061 connecting to localhost:6379. No connection could be made because the target machine actively refused it.
+2025-08-07 02:41:12 | INFO     | src.monitor:__init__:37 - System monitor initialized
+2025-08-07 02:41:12 | INFO     | src.monitor:__init__:208 - Alert manager initialized
+2025-08-07 02:41:14 | INFO     | src.grid_strategy:initialize:106 - Grid strategy initialized successfully
+2025-08-07 02:41:15 | INFO     | src.bybit_client:connect_websocket:58 - WebSocket connected successfully
+2025-08-07 02:41:15 | INFO     | src.main:initialize:76 - All components initialized successfully
+2025-08-07 02:41:15 | INFO     | src.main:run:90 - Starting trading bot...
+2025-08-07 02:41:17 | WARNING  | src.monitor:health_check:123 - High memory usage: 90.1%
+2025-08-07 02:41:17 | INFO     | src.monitor:health_check:132 - Health check passed
+2025-08-07 02:41:17 | INFO     | src.monitor:log_performance:183 - Performance: CPU=20.9%, Memory=90.1%, PnL=0.00, Trades=0
+2025-08-07 02:41:19 | INFO     | src.monitor:log_performance:183 - Performance: CPU=19.1%, Memory=90.2%, PnL=0.00, Trades=0
+2025-08-07 02:41:21 | INFO     | src.monitor:log_performance:183 - Performance: CPU=16.4%, Memory=90.0%, PnL=0.00, Trades=0
+2025-08-07 02:41:23 | INFO     | src.monitor:log_performance:183 - Performance: CPU=17.3%, Memory=89.9%, PnL=0.00, Trades=0
+2025-08-07 02:41:24 | INFO     | src.monitor:log_performance:183 - Performance: CPU=15.4%, Memory=89.9%, PnL=0.00, Trades=0
+2025-08-07 02:41:26 | INFO     | src.monitor:log_performance:183 - Performance: CPU=20.9%, Memory=90.1%, PnL=0.00, Trades=0
+2025-08-07 02:41:28 | INFO     | src.monitor:log_performance:183 - Performance: CPU=54.3%, Memory=90.3%, PnL=0.00, Trades=0
+2025-08-07 02:41:29 | INFO     | src.monitor:log_performance:183 - Performance: CPU=26.6%, Memory=90.2%, PnL=0.00, Trades=0
+2025-08-07 02:41:31 | INFO     | src.monitor:log_performance:183 - Performance: CPU=14.8%, Memory=90.2%, PnL=0.00, Trades=0
+2025-08-07 02:41:33 | INFO     | src.monitor:log_performance:183 - Performance: CPU=23.2%, Memory=91.3%, PnL=0.00, Trades=0
